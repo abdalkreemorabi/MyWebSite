@@ -4,7 +4,8 @@ export default class TodosLists extends Component {
     render() {
         return (
             <div>
-                <p>Welcome todosList component</p>
+                Welcome to Todo Application
+
             </div>
         )
     }

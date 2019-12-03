@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import CreateTodo from "./component/create-todo.component";
 import EditTodo from "./component/edit-todo.component";
 import TodoList from "./component/todos-list.component";
-import logoo from "./logoo.png"
+import logooo from "./logooo.png"
 
 
 class App extends Component {
@@ -13,10 +13,10 @@ class App extends Component {
       <Router>
         <div className="container">
           <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-            <a className="navbar-brand" href="https://google.com" target="_blank" >
-              <img src={logoo} width="50" height="50" alt="google.com" />
+            <a className="navbar-brand" href="https://google.com" target="_blank" rel="noopener noreferrer" >
+              <img src={logooo} width="50" height="50" alt="google.com" />
             </a>
-            <Link to="/" className="navbar-brand">MERN Stack Todo App</Link>
+            <Link to="/" className="navbar-brand">Todo App!</Link>
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav mr-auto">
                 <li className="navbar-item">
