@@ -12,12 +12,13 @@ class App extends Component {
     return (
       <Router>
         <div className="container">
-          <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="https://google.com" target="_blank" rel="noopener noreferrer" >
               <img src={logooo} width="50" height="50" alt="google.com" />
             </a>
-            <Link to="/" className="navbar-brand">Todo App!</Link>
-            <div className="collapse navbar-collapse">
+            <Link to="/" className="navbar-brand">Stack Todo App</Link>
+            <div className="collpase navbar-collapse">
               <ul className="navbar-nav mr-auto">
                 <li className="navbar-item">
                   <Link to="/" className="nav-link">Todos</Link>
